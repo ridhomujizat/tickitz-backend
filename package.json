@@ -1,0 +1,35 @@
+{
+  "name": "tickitz-backend",
+  "version": "1.0.0",
+  "description": "backend for application ticket revertion name's tickitz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridhomujizat/tickitz-backend.git"
+  },
+  "keywords": [
+    "javascript",
+    "expressjs"
+  ],
+  "author": "ridho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ridhomujizat/tickitz-backend/issues"
+  },
+  "homepage": "https://github.com/ridhomujizat/tickitz-backend#readme",
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
