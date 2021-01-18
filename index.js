@@ -16,6 +16,7 @@ app.use(cors('*'))
 // routes
 app.use('/', require('./src/routers/movies'))
 app.use('/', require('./src/routers/genre'))
+app.use('/', require('./src/routers/cinema'))
 
 app.get('/', (req, res) => {
   const data = {

@@ -32,3 +32,19 @@ exports.validationPatchMovie = [
   check('description').isLength({ min: 10, max: 100 }).optional().withMessage('duration length must min 3 & max 100!'),
   check('status').isIn(['upcoming', 'released']).optional().withMessage('velue status just upcoming & released')
 ]
+
+exports.validationGenre = [
+  check('name').notEmpty().withMessage('name genre is required!').isLength({ min: 3, max: 100 }).withMessage('name length must min 3 & max 100!')
+]
+
+exports.validationCinema = [
+  check('cinema').notEmpty().withMessage('cinema name is required!').isLength({ min: 3, max: 100 }).withMessage('name length must min 3 & max 100!'),
+  check('address').notEmpty().withMessage('cinema name is required!').isLength({ min: 5, max: 100 }).withMessage('name length must min 5 & max 100!'),
+  check('price').notEmpty().withMessage('cinema name is required!').isLength({ min: 1, max: 100 }).withMessage('name length must min 5 & max 100!')
+]
+
+exports.validationPatchCinema = [
+  check('cinema').optional().isLength({ min: 3, max: 100 }).withMessage('name length must min 3 & max 100!'),
+  check('address').optional().isLength({ min: 5, max: 100 }).withMessage('name length must min 5 & max 100!'),
+  check('price').optional().isLength({ min: 1, max: 100 }).withMessage('name length must min 5 & max 100!')
+]
