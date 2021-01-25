@@ -3,4 +3,4 @@
  
 ## INFO
 this application only uses dummy data,
-advanced work can be checked at [disini](https://github.com/ridhomujizat/backend-tickitz)
+advanced work can be checked at [here](https://github.com/ridhomujizat/backend-tickitz)
